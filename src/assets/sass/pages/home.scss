@@ -1,0 +1,442 @@
+.home {
+    background-color: blue;
+    position: relative;
+
+}
+
+.home-offer {
+    padding: 80px 0 0px;
+    &__title {
+        max-width: 950px;
+        margin-bottom: 35px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 28px;
+            line-height: 1.6;
+        }
+    }
+
+    &__img {
+        object-fit: cover;
+        position: relative;
+    }
+    
+    &__sab-title {
+        margin: 94px 0 20px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 20px;
+            line-height: 1.6;
+            margin: 60px 0 20px;
+        }
+    }
+}
+
+
+.information {
+    padding: 120px 0 0;
+
+    @media screen and (max-width: 768px) {
+        padding: 60px 0 0;
+    } 
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+
+    &__wrapp {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__title {
+        max-width: 410px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 28px;
+            line-height: 1.6;
+        }
+    }
+
+    &__text {
+        max-width: 586px;
+        font-size: 16px;
+        line-height: 26px;
+        font-family: $main-fonts;
+        font-weight: lighter;
+
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+    }
+}
+
+.ideas {
+    &__card {
+        display: flex;
+        gap: 30px;
+        margin-top: 50px;
+        padding: 30px 0;
+        border-top: 1px solid #40404E;
+        border-bottom: 1px solid #40404E;
+
+        @media screen and (max-width: 768px) {
+            margin-top: 20px;
+        }
+    }
+
+    &__card-wrapper {
+        width: 40%;
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    &__card-wrapper-box {
+        height: 670px;
+    }
+
+    &__card-wrapper-img {
+        object-fit: cover;	
+        width: 100%;
+        height: 100%;
+    }
+    
+
+
+
+
+    &__card-wrapp {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+
+
+    &__card-wrapp-box {
+        height: 470px;
+
+        @media screen and (max-width: 768px) {
+            height: 100%;
+        }
+    }
+
+    &__card-wrapp-img {
+        object-fit: cover;	
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    &__info {
+        margin-top: auto;
+    }
+
+    &__word {
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+        }
+    }
+
+    &__heading {
+        margin: 8px 0;
+
+        @media screen and (max-width: 768px) {
+            font-size: 26px;
+        }
+    }
+
+    &__btn {
+        font-size: 14px;
+    }
+
+    &__button {
+        margin-top: 20px;
+    }
+        
+}
+
+
+.services {
+    margin-top: 50px;
+
+    &__card-wrapp {
+        
+        display: flex;
+        gap: 30px;
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            gap: 0px;
+            flex-direction: column;
+        }
+    }
+
+    &__card {
+        padding: 30px 0;
+        margin-top: 50px;
+        border-top: 1px solid #40404E;
+        border-bottom: 1px solid #40404E;
+
+        @media screen and (max-width: 768px) {
+            margin-top: 20px;
+        }
+    }
+
+    &__card-wrapp-box {
+        width: 50%;
+        height: 356px;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__card-wrapp-img {
+        object-fit: cover;	
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    &__info {
+        width: 50%;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    &__word {
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+        }
+    }
+
+    &__heading {
+        margin: 8px 0;
+
+        @media screen and (max-width: 768px) {
+            font-size: 26px;
+        }
+    }
+
+    &__btn {
+        font-size: 14px;
+    }
+
+    &__button {
+        margin-top: 20px;
+    }
+}
+
+.architects {
+    &__card {
+        padding: 30px 0;
+        margin-top: 50px;
+
+        @media screen and (max-width: 768px) {
+            margin-top: 20px;
+        }
+    }
+
+    &__card-wrapp {
+        display: flex;
+        gap: 30px;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            gap: 0px;
+            flex-direction: column;
+        }
+    }
+
+    &__card-pox {
+        width: 50%;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            height: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__card-wrapp-box {
+        position: sticky;
+        top: 20px;
+        height: 356px;
+    }
+
+    &__card-wrapp-img {
+        object-fit: cover;	
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    &__info {
+        width: 50%;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    &__word {
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+        }
+    }
+
+    &__heading {
+        margin: 120px 0 0;
+
+        &:first-child {
+            margin-top: 0px;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 26px;
+            margin: 20px 0 0;
+        }
+    }
+}
+
+.start-project {
+    &__card {
+        background: $color-black;
+        margin-top: 90px;
+
+        @media screen and (max-width: 768px) {
+            margin-top: 20px;
+        }
+    }
+
+    &__card-wrapp {
+        display: flex;
+        gap: 30px;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            gap: 0px;
+            flex-direction: column;
+        }
+    }
+
+    &__card-pox {
+        width: 50%;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__card-wrapp-box {
+        position: sticky;
+        top: 20px;
+        height: 500px;
+
+        @media screen and (max-width: 768px) {
+            height: 100%;
+        }
+    }
+
+    &__card-wrapp-img {
+        object-fit: cover;	
+        width: 100%;
+        height: 100%;
+    }
+
+    &__info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 600px;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 16px;
+            height: 400px;
+        }
+    }
+
+    &__word {
+        color: $color-white;
+        margin: 10px 0 20px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+        }
+    }
+
+    &__heading {
+        margin: 120px 0 0;
+        color: $color-white;
+
+        &:first-child {
+            margin-top: 0px;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 26px;
+            margin: 20px 0 0;
+        }
+    }
+
+    &__button {
+        border-bottom: 2px solid $color-white;
+        color: $color-white;
+        box-shadow: none;
+    }
+
+    &__button a {
+        color: $color-white;
+    }
+}
+
+.information-last {
+    padding: 120px 0 0;
+
+    @media screen and (max-width: 768px) {
+        padding: 60px 0 0;
+    } 
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+
+    &__title {
+        @media screen and (max-width: 768px) {
+            font-size: 28px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+    }
+
+}
