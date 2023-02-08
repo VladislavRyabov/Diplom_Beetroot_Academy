@@ -56,7 +56,7 @@
     &__info {
         margin-top: 150px;
         display: flex;
-        align-items: center;
+        // align-items: center;
         justify-content: space-between;
 
         @media (max-width: $tablet) {
@@ -79,6 +79,6 @@
     &__info-wrapp {
         display: flex;
         gap: 20px;
-        align-items: center;
+        align-items: end;
     }
 }
